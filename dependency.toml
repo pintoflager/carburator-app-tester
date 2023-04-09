@@ -1,0 +1,30 @@
+# optional: bool,
+# optional_with: Option<Vec<String>>,
+# version: Option<VersionReq>,
+# on_level: DepOnLevel,
+# collection: PackageType,
+
+[dependency.bash]
+optional = false
+on_level = "Node" # Node | Group | Project | Client
+collection = "Executor"
+
+[dependency.lua]
+optional = false
+on_level = "Node" # Node | Group | Project | Client
+collection = "Executor"
+
+[dependency.perl]
+optional = false
+on_level = "Node" # Node | Group | Project | Client
+collection = "Executor"
+
+[dependency.python]
+optional = false
+on_level = "Node" # Node | Group | Project | Client
+collection = "Executor"
+
+[dependency.sh]
+optional = false
+on_level = "Node" # Node | Group | Project | Client
+collection = "Executor"

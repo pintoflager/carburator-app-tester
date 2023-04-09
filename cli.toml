@@ -1,0 +1,73 @@
+help = "Run tester commands"
+
+########################################################
+
+[command.test_bash]
+help = "Test bash executor"
+platform = ["Client"]
+executor = "tests/run"
+
+[command.test_bash.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_BASH_FLAG"
+
+########################################################
+
+[command.test_lua]
+help = "Test lua executor"
+platform = ["Client"]
+executor = "tests/run"
+
+[command.test_lua.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_LUA_FLAG"
+
+########################################################
+
+[command.test_perl]
+help = "Test perl executor"
+platform = ["Client"]
+executor = "tests/run"
+
+[command.test_perl.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_PERL_FLAG"
+
+########################################################
+
+[command.test_python]
+help = "Test python executor"
+platform = ["Client"]
+executor = "tests/run"
+
+[command.test_python.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_PYTHON_FLAG"
+
+########################################################
+
+[command.test_sh]
+help = "Test sh executor"
+platform = ["Client"]
+executor = "tests/run"
+
+[command.test_sh.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_SH_FLAG"
+
+########################################################
