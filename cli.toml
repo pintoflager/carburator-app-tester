@@ -13,6 +13,7 @@ long = "flag"
 short = "f"
 value_is = "Boolean" # Boolean | String | Array
 to_env_key = "TESTER_BASH_FLAG"
+required = false
 
 ########################################################
 
@@ -27,6 +28,7 @@ long = "flag"
 short = "f"
 value_is = "Boolean" # Boolean | String | Array
 to_env_key = "TESTER_LUA_FLAG"
+required = false
 
 ########################################################
 
@@ -41,6 +43,7 @@ long = "flag"
 short = "f"
 value_is = "Boolean" # Boolean | String | Array
 to_env_key = "TESTER_PERL_FLAG"
+required = false
 
 ########################################################
 
@@ -55,6 +58,7 @@ long = "flag"
 short = "f"
 value_is = "Boolean" # Boolean | String | Array
 to_env_key = "TESTER_PYTHON_FLAG"
+required = false
 
 ########################################################
 
@@ -69,5 +73,6 @@ long = "flag"
 short = "f"
 value_is = "Boolean" # Boolean | String | Array
 to_env_key = "TESTER_SH_FLAG"
+required = false
 
 ########################################################
