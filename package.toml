@@ -8,7 +8,7 @@ provides = ["dummy_tester"]
 # os_support = []
 
 [recommend]
-on_level = "Project" # *Proxy | Group | Project
+on_level = "Project" # *Proxy | Cluster | Project
 # count = 1 # How many nodes on the given level // leave empty for all
 message = """
 Installs tester dummy app on every node to try how executors etc work.

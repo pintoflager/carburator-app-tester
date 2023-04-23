@@ -6,25 +6,25 @@
 
 [dependency.bash]
 optional = false
-on_level = "Node" # Node | Group | Project | Client
+on_level = "Node" # Node | Cluster | Project | Client
 collection = "Executor"
 
 [dependency.lua]
 optional = false
-on_level = "Node" # Node | Group | Project | Client
+on_level = "Node" # Node | Cluster | Project | Client
 collection = "Executor"
 
 [dependency.perl]
 optional = false
-on_level = "Node" # Node | Group | Project | Client
+on_level = "Node" # Node | Cluster | Project | Client
 collection = "Executor"
 
 [dependency.python]
 optional = false
-on_level = "Node" # Node | Group | Project | Client
+on_level = "Node" # Node | Cluster | Project | Client
 collection = "Executor"
 
 [dependency.sh]
 optional = false
-on_level = "Node" # Node | Group | Project | Client
+on_level = "Node" # Node | Cluster | Project | Client
 collection = "Executor"
