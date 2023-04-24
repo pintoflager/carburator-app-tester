@@ -5,11 +5,11 @@ role="$1"
 if [ "$role" = 'client' ]; then
     carburator print terminal fyi \
         "Tester app install runs on client machine"
-    exit
+    exit 0
 fi
 
 if [ "$role" = 'server' ]; then
     carburator print terminal fyi \
         "Tester app install runs on server node"
-    exit
+    exit 0
 fi
