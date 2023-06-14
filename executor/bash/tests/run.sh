@@ -6,7 +6,7 @@ echo "Test bash executor"
 # Print boolean flag from command invokation
 key="$1"
 val="$2"
-echo "Flag key: $key and val: $val"
+echo "Arg key from (\$1): $key and val from (\$2): $val"
 
 # Print env key test
-echo "Env value for key 'TESTER_BASH_FLAG': $TESTER_BASH_FLAG"
+echo "Env value for key 'TESTER_BASH_FLAG' from flag (-f): $TESTER_BASH_FLAG"

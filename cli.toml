@@ -7,6 +7,18 @@ help = "Test bash executor"
 platform = ["Client"]
 executor = "tests/run"
 
+[command.test_bash.args.key]
+help = "Set dummy 'key' for command"
+index = 1
+value_is = "String" # Boolean | String | Array
+required = true
+
+[command.test_bash.args.val]
+help = "Set dummy 'value' for command"
+index = 2
+value_is = "String" # Boolean | String | Array
+required = true
+
 [command.test_bash.args.flag]
 help = "Set dummy boolean flag for command"
 long = "flag"
