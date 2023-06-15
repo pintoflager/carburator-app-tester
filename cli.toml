@@ -5,7 +5,10 @@ help = "Run tester commands"
 [command.test_bash]
 help = "Test bash executor"
 platform = ["Client"]
-executor = "tests/run"
+
+[command.test_bash.executor]
+tail = "tests/run"
+executor = "bash"
 
 [command.test_bash.args.key]
 help = "Set dummy 'key' for command"
@@ -32,7 +35,10 @@ required = false
 [command.test_lua]
 help = "Test lua executor"
 platform = ["Client"]
-executor = "tests/run"
+
+[command.test_lua.executor]
+tail = "tests/run"
+executor = "lua"
 
 [command.test_lua.args.key]
 help = "Set dummy 'key' for command"
@@ -51,7 +57,10 @@ required = true
 [command.test_perl]
 help = "Test perl executor"
 platform = ["Client"]
-executor = "tests/run"
+
+[command.test_perl.executor]
+tail = "tests/run"
+executor = "perl"
 
 [command.test_perl.args.key]
 help = "Set dummy 'key' for command"
@@ -78,7 +87,10 @@ required = false
 [command.test_python]
 help = "Test python executor"
 platform = ["Client"]
-executor = "tests/run"
+
+[command.test_python.executor]
+tail = "tests/run"
+executor = "python"
 
 [command.test_python.args.key]
 help = "Set dummy 'key' for command"
@@ -105,7 +117,10 @@ required = false
 [command.test_sh]
 help = "Test sh executor"
 platform = ["Client"]
-executor = "tests/run"
+
+[command.test_sh.executor]
+tail = "tests/run"
+executor = "sh"
 
 [command.test_sh.args.key]
 help = "Set dummy 'key' for command"
