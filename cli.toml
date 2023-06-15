@@ -52,6 +52,14 @@ arg_index = 2
 value_is = "String" # Boolean | String | Array
 required = true
 
+[command.test_lua.args.flag]
+help = "Set dummy boolean flag for command"
+long = "flag"
+short = "f"
+value_is = "Boolean" # Boolean | String | Array
+to_env_key = "TESTER_LUA_FLAG"
+required = false
+
 ########################################################
 
 [command.test_perl]
