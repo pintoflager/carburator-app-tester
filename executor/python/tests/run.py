@@ -6,9 +6,11 @@ import os
 # Print hello message
 print("Test python executor")
 
-# Print boolean flag from command invokation
-print("Flags from command line:")
-print(sys.argv)
+# Args given to the script
+key = sys.argv[0]
+val = sys.argv[1]
+
+print('Flag key: ' +  key + ' and val: ' + val)
 
 # Print env key test
 print("Env value for key 'TESTER_PYTHON_FLAG'")
