@@ -3,7 +3,7 @@
 # Print hello message
 echo "Test bash executor"
 
-# Print boolean flag from command invokation
+# Print boolean flag from command invocation
 key="$1"
 val="$2"
 echo "Arg key from (\$1): $key and val from (\$2): $val"
